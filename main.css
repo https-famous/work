@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 20%;
+    margin-left: 42%;
+    /* height: 100vh; */
+}
+.name{
+    margin-bottom: 0.5rem;
+}
+
+.img{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contents{
+    background-color: lightblue;
+    padding: 20px;
+    width:100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    z-index: inherit;
+    transition: transform 0.3s ease;
+}
